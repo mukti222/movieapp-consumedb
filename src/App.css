@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Movie-wrapper {
+  color: rgb(32, 28, 28);
+  width:500px;
+  background-color: white;
+}
+
+.Movie-search {
+  height: 60px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  padding: 16px;
+  font-weight: bold;
+  width: 475px;
+}
+
+.searchbutton{
+  height: 91px;
+  font-size: 30px;
+  margin: 10px;
+  
+  padding: 0vw;
+  font-weight: bold;
+  width: 100px;
+}
